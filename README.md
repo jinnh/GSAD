@@ -17,7 +17,7 @@ This paper studies a diffusion-based framework to address the image reconstructi
 If you find our work useful for your research, please cite our paper
 
 ```
-@article{zhou2023pyramid,
+@article{hou2023global,
   title={Global Structure-Aware Diffusion Process for Low-Light Image Enhancement},
   author={Jinhui Hou, Zhiyu Zhu, Junhui Hou, Hui Liu, Huanqiang Zeng, and Hui Yuan},
   journal={Advances in Neural Information Processing Systems},
