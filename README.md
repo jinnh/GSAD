@@ -4,8 +4,8 @@
 
 ## Overall
 
-<div align="right">
-	<img src="images/framework.png" alt="Editor" width="400">
+<div align="left">
+	<img src="images/framework.png" alt="Editor" width="1000">
 </div>
 
 ## Evaluation
