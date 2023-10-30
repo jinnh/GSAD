@@ -1,0 +1,24 @@
+
+dataset: LOLv1
+
+#### datasets
+datasets:
+  train:
+    dist: False
+    root: dataset\LOLv1
+    use_shuffle: true
+    n_workers: 1  
+    batch_size: 8
+    use_flip: true
+    use_crop: true
+    patch_size: 96
+
+  val:
+    dist: False
+    root: dataset\LOLv1
+    n_workers: 1
+    use_crop: true
+    batch_size: 1 
+
+
+
