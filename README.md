@@ -5,13 +5,14 @@
 ## Overall
 
 <div align="left">
-	<img src="images/framework.png" alt="Editor" width="1000">
+	<img src="images/framework.png" alt="Editor" width="700">
 </div>
 
 ## Evaluation
 
-![Quantitative results](images/quantitative%20results.png)
-
+<div align="left">
+	<img src="images/quantitative%20results.png" alt="Editor" width="700">
+</div>
 We also provide the pre-trained models and visual results.
 
 | Dataset | Checkpoints | Outputs |
