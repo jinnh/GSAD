@@ -5,13 +5,13 @@
 ## Overall
 
 <div align="left">
-	<img src="images/framework.png" alt="Editor" width="700">
+	<img src="images/framework.png" alt="Editor" width="770">
 </div>
 
 ## Evaluation
 
 <div align="left">
-	<img src="images/quantitative%20results.png" alt="Editor" width="700">
+	<img src="images/quantitative%20results.png" alt="Editor" width="770">
 </div>
 We also provide the pre-trained models and visual results.
 
