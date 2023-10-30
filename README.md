@@ -4,7 +4,9 @@
 
 ## Overall
 
-![Framework](images/framework.png)
+<div align="right">
+	<img src="images/framework.png" alt="Editor" width="400">
+</div>
 
 ## Evaluation
 
