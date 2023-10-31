@@ -26,7 +26,7 @@ We also provide the pre-trained models and visual results.
 If you find our work useful for your research, please cite our paper
 
 ```
-@article{zhou2023pyramid,
+@article{hou23global,
   title={Global Structure-Aware Diffusion Process for Low-Light Image Enhancement},
   author={Jinhui Hou, Zhiyu Zhu, Junhui Hou, Hui Liu, Huanqiang Zeng, and Hui Yuan},
   journal={Advances in Neural Information Processing Systems},
