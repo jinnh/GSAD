@@ -1,0 +1,7 @@
+opencv-python==4.5.2.54
+PyYAML==6.0
+natsort==8.1.0
+scikit-image==0.18.1
+lpips==0.1.4
+kmeans_pytorch
+scikit-learn==1.0
