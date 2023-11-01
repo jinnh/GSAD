@@ -53,7 +53,7 @@ class LOLv1_Dataset(data.Dataset):
 
         if self.use_crop and self.split != 'val':
             hr, lr = random_crop(hr, lr, self.crop_size)
-        elif self.use_crop and self.split == 'val':
+        elif self.split == 'val':
             lr = cv2.copyMakeBorder(lr, 8,8,4,4,cv2.BORDER_REFLECT)
 
         if self.use_flip:
