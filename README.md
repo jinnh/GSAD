@@ -27,7 +27,7 @@
 <img src="./images/quantitative%20results.png" alt="Logo" width="700" height="300">
 </div>
 
-<img src="./images/visual%20results.pnge" alt="Logo" width="700" height="320">
+<img src="./images/visual%20results.png" alt="Logo" width="700" height="320">
 
 </details>
 
