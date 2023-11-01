@@ -34,7 +34,7 @@
 ### Dependencies and Installation
 
 - Python 3.8
-- Pytorch 1.10
+- Pytorch 1.11
 
 1. Create Conda Environment
 
