@@ -5,7 +5,7 @@ dataset: LOLv1
 datasets:
   train:
     dist: False
-    root: dataset\LOLv1
+    root: ./dataset/LOLv1
     use_shuffle: true
     n_workers: 1  
     batch_size: 8
@@ -15,7 +15,7 @@ datasets:
 
   val:
     dist: False
-    root: dataset\LOLv1
+    root: ./dataset/LOLv1
     n_workers: 1
     use_crop: true
     batch_size: 1 
