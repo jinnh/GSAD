@@ -23,12 +23,10 @@
 <details close>
   <summary>Evaluation on LOLv1 and LOLv2</b></summary>
 
-<div align="center">
-<img src="./images/quantitative%20results.png" alt="Logo" width="700" height="300">
-</div>
-
-<img src="./images/visual%20results.png" alt="Logo" width="700" height="320">
-
+  <div align="center">
+    <img src="./images/quantitative%20results.png" alt="Logo" width="700" height="300">
+    <img src="./images/visual%20results.png" alt="Logo" width="700" height="320">
+  </div>
 </details>
 
 ## Get Started
@@ -64,7 +62,7 @@ cd GSAD
 pip install -r requirements.txt
 ```
 
-### Data preparation
+### Data Preparation
 
 You can refer to the following links to download the datasets.
 
