@@ -6,7 +6,7 @@
 
 <h2 align="center">[NeurIPS 2023] Global Structure-Aware Diffusion Process for Low-Light Image Enhancement</h2>
 
-  <p align="center">
+<p align="center">
     <a href="https://arxiv.org/abs/2310.17577">arXiv</a>
     ·
     <a href="https://arxiv.org/abs/2310.17577">NeurIPS23</a>
@@ -15,23 +15,21 @@
   </p>
 
 <a href="https://github.com/jinnh/GSAD">
-    <img src="https://github.com/jinnh/GSAD/blob/main/images/framework.png?raw=true" alt="Logo" width="420" height="270">
+    <img src="./images/framework.png" alt="Logo" width="480" height="300">
   </a>
 
 </div>
 
-<div align="left">
-
 <details close>
   <summary>Evaluation on LOLv1 and LOLv2</b></summary>
 
-<img src="https://github.com/jinnh/GSAD/blob/main/images/quantitative%20results.png?raw=true" alt="Logo" width="700" height="300">
+<div align="center">
+<img src="./images/quantitative%20results.png" alt="Logo" width="700" height="300">
+</div>
 
-<img src="https://github.com/jinnh/GSAD/blob/main/images/visual%20results.png?raw=true" alt="Logo" width="700" height="320">
-
+<img src="./images/visual%20results.pnge" alt="Logo" width="700" height="320">
 
 </details>
-</div>
 
 ## Get Started
 
