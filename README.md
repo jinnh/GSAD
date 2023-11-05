@@ -11,7 +11,7 @@
     ·
     <a href="https://arxiv.org/abs/2310.17577">NeurIPS23</a>
     ·
-    <a href="https://github.com/jinnh/GSAD">Project Page</a>
+    <a href="https://jinnh.github.io/GlobalDiff/">Project Page</a>
   </p>
 
 <a href="https://github.com/jinnh/GSAD">
