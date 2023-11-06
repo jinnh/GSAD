@@ -7,27 +7,35 @@
 <h2 align="center">[NeurIPS 2023] Global Structure-Aware Diffusion Process for Low-Light Image Enhancement</h2>
 
 <p align="center">
-    <a href="https://arxiv.org/abs/2310.17577">arXiv</a>
+    <a href="https://arxiv.org/abs/2310.17577">ArXiv</a>
     ·
-    <a href="https://arxiv.org/abs/2310.17577">NeurIPS23</a>
+    <a href="https://nips.cc/virtual/2023/poster/71121">NeurIPS23</a>
     ·
     <a href="https://jinnh.github.io/GlobalDiff/">Project Page</a>
   </p>
 
-<a href="https://github.com/jinnh/GSAD">
-    <img src="./images/framework.png" alt="Logo" width="480" height="300">
+  <a href="https://arxiv.org/abs/2310.17577">
+    <img src="https://github.com/jinnh/jinnh.github.io/blob/main/GlobalDiff/static/images/globaldiff_arxiv_page.png?raw=true" alt="Logo" width="140" height="142">
+  </a>
+
+  <a href="https://nips.cc/virtual/2023/poster/71121">
+    <img src="https://github.com/jinnh/jinnh.github.io/blob/main/GlobalDiff/static/images/globaldiff_nips_page.png?raw=true" alt="Logo" width="140" height="143">
+  </a>
+
+  <a href="https://jinnh.github.io/GlobalDiff/">
+    <img src="https://raw.githubusercontent.com/jinnh/jinnh.github.io/main/GlobalDiff/static/images/globaldiff_project_page.png" alt="Logo" width="150" height="150">
   </a>
 
 </div>
 
-<details close>
+<!-- <details close>
   <summary>Evaluation on LOLv1 and LOLv2</b></summary>
 
   <div align="center">
     <img src="./images/quantitative%20results.png" alt="Logo" width="700" height="300">
     <img src="./images/visual%20results.png" alt="Logo" width="700" height="320">
   </div>
-</details>
+</details> -->
 
 ## Get Started
 
