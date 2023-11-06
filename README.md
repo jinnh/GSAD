@@ -147,4 +147,4 @@ If you find our work useful for your research, please cite our paper
 
 ## Acknowledgement
 
-Our code is partly built upon [SR3](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement). Thanks to the contributors of their great work.
+Our code is built upon [SR3](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement). Thanks to the contributors for their great work.
