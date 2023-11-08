@@ -132,6 +132,32 @@ python test.py --dataset ./config/lolv2_syn.yml --config ./config/lolv2_syn_test
 bash train.sh
 ```
 
+### Training on the customized dataset
+
+1. We provide the dataset and training configs for both LOLv1 and LOLv2 benchmarks in the 'config' folder. You can create your configs for your dataset. You can also write your dataloader for the customized dataset before going to the 'diffusion.feed_data()'.
+
+```
+./config/customized_dataset.yml # e.g., lolv1.yml
+./config/customized_dataset_train.json # e.g., lolv1_train.json
+```
+
+2. Specify the following terms in 'customized_dataset.yml'.
+
+```
+datasets.train.root # the path of training data
+datasets.val.root # the path of testing data
+```
+
+3. Modify the following terms in 'train.sh', then run 'train.sh'.
+
+```
+## train uncertainty model
+python train.py -uncertainty --config ./config/llie_train_u.json --dataset ./config/customized_dataset.yml 
+
+## train global structure-aware diffusion
+python train.py --config ./config/customized_dataset_train.json --dataset ./config/customized_dataset.yml
+```
+
 ## Citation
 
 If you find our work useful for your research, please cite our paper
