@@ -14,15 +14,15 @@
     <a href="https://jinnh.github.io/GlobalDiff/">Project Page</a>
   </p>
 
-  <a href="https://arxiv.org/abs/2310.17577">
+<a href="https://arxiv.org/abs/2310.17577">
     <img src="https://github.com/jinnh/jinnh.github.io/blob/main/GlobalDiff/static/images/globaldiff_arxiv_page.png?raw=true" alt="Logo" width="140" height="142">
   </a>
 
-  <a href="https://nips.cc/virtual/2023/poster/71121">
+<a href="https://nips.cc/virtual/2023/poster/71121">
     <img src="https://github.com/jinnh/jinnh.github.io/blob/main/GlobalDiff/static/images/globaldiff_nips_page.png?raw=true" alt="Logo" width="140" height="143">
   </a>
 
-  <a href="https://jinnh.github.io/GlobalDiff/">
+<a href="https://jinnh.github.io/GlobalDiff/">
     <img src="https://raw.githubusercontent.com/jinnh/jinnh.github.io/main/GlobalDiff/static/images/globaldiff_project_page.png" alt="Logo" width="150" height="150">
   </a>
 
@@ -51,7 +51,7 @@ conda create --name GlobalDiff python=3.8
 conda activate GlobalDiff
 ```
 
-2. Install pytorch
+2. Install PyTorch
 
 ```
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
@@ -104,6 +104,8 @@ Then, put them in the following folder:
 
 ### Testing
 
+Note: Following LLFlow and KinD, we have also adjusted the brightness of the output image produced by the network, based on the average value of Ground Truth (GT). ``It should be noted that this adjustment process does not influence the texture details generated; it is merely a straightforward method to regulate the overall illumination.`` Moreover, it can be easily adjusted according to user preferences in practical applications.
+
 Visual results on LOLv1 and LOLv2 can be downloaded from [Google drive](https://drive.google.com/drive/folders/1UIBn5Wle8FySag5Fby6PBm3zcxmN3qmY?usp=sharing).
 
 You can also refer to the following links to download the [pretrained model](https://drive.google.com/drive/folders/1KLPm2oOg2Fx4WlbnOXMjN2rbyzzG8Hd-?usp=sharing) and put it in the following folder:
@@ -125,6 +127,26 @@ python test.py --dataset ./config/lolv2_real.yml --config ./config/lolv2_real_te
 #LOLv2-synthetic
 python test.py --dataset ./config/lolv2_syn.yml --config ./config/lolv2_syn_test.json
 ```
+
+### Testing on unpaired data
+
+```
+python test_unpaired.py  --config config/test_unpaired.json --input unpaired_image_folder
+```
+
+You can use any one of these three pre-trained models, and employ different sampling steps and noise levels to obtain visual-pleasing results by modifying these terms in the 'test_unpaired.json'.
+
+```
+"resume_state": "./checkpoints/lolv2_syn_gen.pth"
+
+"val": {
+    "schedule": "linear",
+    "n_timestep": 10,
+    "linear_start": 2e-3,
+    "linear_end": 9e-1
+}
+```
+
 
 ### Training
 
@@ -148,7 +170,7 @@ datasets.train.root # the path of training data
 datasets.val.root # the path of testing data
 ```
 
-3. Modify the following terms in 'train.sh', then run 'train.sh'.
+3. Modify the following config path in 'train.sh', then run 'train.sh'.
 
 ```
 ## train uncertainty model
