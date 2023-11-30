@@ -1,8 +1,8 @@
 <div align="center">
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-structure-aware-diffusion-process-for-1/low-light-image-enhancement-on-lol)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lol?p=global-structure-aware-diffusion-process-for-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-structure-aware-diffusion-process-for-1/low-light-image-enhancement-on-lolv2)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lolv2?p=global-structure-aware-diffusion-process-for-1)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-structure-aware-diffusion-process-for-1/low-light-image-enhancement-on-lolv2-1)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lolv2-1?p=global-structure-aware-diffusion-process-for-1)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-structure-aware-diffusion-process-for/low-light-image-enhancement-on-lol)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lol?p=global-structure-aware-diffusion-process-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-structure-aware-diffusion-process-for/low-light-image-enhancement-on-lolv2)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lolv2?p=global-structure-aware-diffusion-process-for)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/global-structure-aware-diffusion-process-for/low-light-image-enhancement-on-lolv2-1)](https://paperswithcode.com/sota/low-light-image-enhancement-on-lolv2-1?p=global-structure-aware-diffusion-process-for)
 
 <h2 align="center">[NeurIPS 2023] Global Structure-Aware Diffusion Process for Low-Light Image Enhancement</h2>
 
