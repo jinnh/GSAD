@@ -59,7 +59,7 @@ class DDPM(BaseModel):
             self.log_dict = OrderedDict()
 
         if not opt['uncertainty_train'] and self.opt['phase'] == 'train':
-            # self.netGU.load_state_dict(torch.load(self.opt['path']['resume_state']+'_gen.pth'), strict=True)
+            self.netGU.load_state_dict(torch.load(self.opt['path']['resume_state']+'_gen.pth'), strict=True) # use uncertainty model for initialization 
             if opt['dist']:
                 self.netGU = DDP(self.netGU, device_ids=[self.local_rank], output_device=self.local_rank, find_unused_parameters=True)
 
