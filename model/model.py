@@ -249,6 +249,8 @@ class DDPM(BaseModel):
         torch.save(opt_state, opt_path)
 
         if self.opt['uncertainty_train']:
+            uncertainty_save_dir = './checkpoints/uncertainty/'
+            os.makedirs(uncertainty_save_dir, exist_ok=True)
             ut_gen_path = os.path.join(
                 './checkpoints/uncertainty/', 'latest_gen.pth'.format(iter_step, epoch))
             ut_opt_path = os.path.join(
