@@ -153,6 +153,7 @@ You can use any one of these three pre-trained models, and employ different samp
 ```
 bash train.sh
 ```
+Note: Pre-trained uncertainty models are available in [Google Drive](https://drive.google.com/drive/folders/139LvNvVv0ATp3-mIcSipnl1YauDcaVyf).
 
 ### Training on the customized dataset
 
