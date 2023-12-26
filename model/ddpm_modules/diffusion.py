@@ -394,7 +394,7 @@ class GaussianDiffusion(nn.Module):
         pmax = pmax[0].unsqueeze(dim=-1).unsqueeze(dim=-1)
 
         Pt = (Pt - pmin) / (pmax - pmin + 0.000001)
-        # Pt = Pt * 0.5 + 0.5
+        Pt = Pt * 0.5 + 0.5
 
         epsilon_pred = torch.mul(x_recon, Pt)
         epsilon = torch.mul(noise, Pt)
