@@ -46,7 +46,7 @@
             }
         },
         "diffusion": {
-            "image_size": 96,
+            "image_size": 128,
             "channels": 6, 
             "conditional": true
         }
